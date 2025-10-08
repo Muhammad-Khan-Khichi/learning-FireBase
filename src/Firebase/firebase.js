@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyDolTo7QHUs1nph0PnUOD4OA1mOrmsqr9g",
@@ -12,5 +12,4 @@ const firebaseConfig = {
   databaseURL: "https://react-app-6c7b5-default-rtdb.firebaseio.com/"
 };
 
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+export const app = initializeApp(firebaseConfig);
