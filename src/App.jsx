@@ -2,6 +2,7 @@
 // import { app } from './Firebase/firebase'
 // import './App.css'
 // import Auth from './components/Auth';
+import SignIn from './components/SignIn';
 import Signup from './components/Signup';
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
     {/* <h1 className='bg-amber-950 text-white text-center'>Hello, </h1>
     <button onClick={putData} className='bg-yellow-300 p-2 cursor-pointer '>Put Data</button>
     <Auth/> */}
-    <Signup/>
+    {/* <Signup/> */}
+    <SignIn/>
     </>
   )
 }
